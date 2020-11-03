@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/contacts.css">
+    <link rel="stylesheet" href="../css/media.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&display=swap" rel="stylesheet"> 
+   
+
+    <title>Irina</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="header__wrapper">
+            <div class="header__logo">
+                <a href="#" class="header__logo-link">Irina Bessmertnaya
+                    <span class="header__logo-pic">Дизайнер интерьера</span>
+                </a>
+            </div>
+            <div class="header__nav-btn" id="burger-menu">MENU</div>
+            <nav class="header__nav">
+               
+                <ul class="header__list" id="menu-list">
+                    <script>
+                        if(window.innerWidth <= 960){
+                            document.getElementById('menu-list').classList.add('hidden');
+                        }
+                    </script>
+
+                    <li class="header__item">
+                        <a href="../index.html" class="header__link">Главная</a>
+                    </li>  
+                    <li class="header__item">
+                        <a href="./prices.html" class="header__link">Цены</a>
+                    </li>  
+                    <li class="header__item">
+                        <a href="#services" class="header__link">Услуги</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="./portfolio.html" class="header__link">Портфолио</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">Контакты</a>
+                    </li>
+                    
+                </ul>
+                <div class="header__nav-close">
+                    <span class="header__nav-close-line"></span>
+                    <span class="header__nav-close-line"></span>
+                </div>
+            </nav>
+            
+        </div>
+</header>
+    <main>
+        <section id="contacts">
+            <div class="contacts-wrapper">
+                <h1 class="contacts__title" id="_arrow-anchor">Контактная информация</h1>
+               
+                <div class="contacts__info-wrapper">
+                    <div class="arrowtop hidden"></div>
+                    <div class="contacts-logo">
+                        <a href="#" class="header__logo-link">Irina Bessmertnaya
+                            <span class="header__logo-pic">Дизайнер интерьера</span>
+                        </a>
+                    </div>
+                    <div class="contacts-info contacts">
+                        <a href="tel: +375296137634" class="contacts__link">Tel./Viber/Telegram: <span>+375 29 6137634</span></a>
+                        <a href="mailto:irina@mail.ru" class="contacts__link">email: <span>irina@mail.ru</span></a>
+                        <a href="https://www.instagram.com/takoiuzhekot/" class="contacts__link">instagram: <span>irinabessmertnaya</span></a>
+                    </div>
+                </div>    
+                <div class="contacts__info-wrapper">
+                    <div class="contacts-form form-md">
+                        <div class="form">
+                            <form action="#" class="form__body" id="form">
+                                <h5 class="form__title">Напишите нам по любому интересующему Вас вопросу - мы ответим Вам в ближайшее время.</h5>
+                                <div class="form__item">
+                                    <label for="formName" class="form__label">Ваше имя<span class="t-red">*</span></label>
+                                    <input type="text" id="formName" name="name" class="form__input _req">
+                                </div>
+                                <div class="form__item">
+                                    <label for="formEmail" class="form__label">Электронная почта<span class="t-red">*</span></label>
+                                    <input type="text" id="formEmail" name="email" class="form__input _req _email">
+                                </div>
+                                <div class="form__item">
+                                    <label for="formMessage" class="form__label">Как мы можем Вам помочь?<span class="t-red">*</span></label>
+                                    <textarea id="formMessage" name="message" class="form__input _req"></textarea>
+                                </div>
+                                <button class="form__button">Отправить</button>
+
+                            </form>
+                        </div>
+                    </div>
+                    <div class="contacts-pic">
+                        <img src="../img/contacts-pic.jpg" alt="">
+                    </div>
+                </div>    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="wrapper-full">
+            <div class="contacts">
+                <a href="tel: +375296137634" class="contacts__link">Tel./Viber/Telegram: <span>+375 29 6137634</span></a>
+                <a href="mailto:irina@mail.ru" class="contacts__link">email: <span>irina@mail.ru</span></a>
+                <a href="https://www.instagram.com/takoiuzhekot/" class="contacts__link">instagram: <span>irinabessmertnaya</span></a>
+            </div>
+        </div>
+
+    </footer>
+    <script type="text/javascript" src="../js/arrow_top.js"></script>
+    <script type="text/javascript" src="../js/form.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+</body>
+</html>

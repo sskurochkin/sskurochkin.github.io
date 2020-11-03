@@ -1,0 +1,149 @@
+.repair-wrapper{
+    padding: 0 40px;
+    margin: 0 auto;
+    width: 100%;
+}
+.repair{
+    margin-bottom: 30px;
+}
+.repair__title{
+    width: 60%;
+    text-align: center;
+    margin: 50px auto 80px;
+}
+.repair__title-title{
+    text-transform: uppercase;
+    font-size: 46px;
+    margin-bottom: 70px;
+}
+.repair__title-text{
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+.repair__title-subtitle{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.repair__props{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.repair__prop{
+    flex: 1 1 33.3333%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+    margin-bottom: 50px;
+}
+.repair__prop-title{
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+}
+.repair__prop .repair__prop-text{
+    text-align: center;
+    font-size: 26px;
+}
+.repair__prop-text{
+    font-size: 16px;
+    line-height: 28px;
+}
+.repair__prop-pic{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.repair__prop-list{
+    padding-left: 30px;
+}
+.subtitle-list{
+    text-align: center;
+    font-size: 24px;
+    padding-left: 0;
+}
+.prop-list{
+    line-height: 28px;
+    position: relative;
+    display: block;
+    margin-bottom: 35px;
+}
+.prop-list:after{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    right: 0;
+    width: 25%;
+    height: 2px;
+    background-color: rgb(59, 46, 46);
+}
+.prop-list:last-child:after{
+    display: none;
+}
+
+
+.prop-price_title{
+    margin-bottom: 10px;
+}
+
+.prop-price_value{
+    text-align: center;
+    font-size: 32px;
+}
+.repair__pricelist{
+    margin:0 auto 60px;
+    max-width: 320px;
+}
+.repair__pricelist-link{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-family: inherit;
+    background-color: rgb(59, 46, 46);
+    color: #c7c7c7;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: linear .2s;
+    margin-bottom: 5px;
+    
+}
+.repair__pricelist-link:hover{
+    opacity: .7;
+}
+
+
+
+
+.repair__pricelist-desc{
+    text-align: center;
+    font-size: 14px;
+}
+
+.repair__info-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.repair-form .form__title{
+    font-size: 24px;
+}
+.repair-form{
+    flex: 1 0 50%;
+    padding-right: 10px;
+}
+.repair-pic{
+    flex: 1 0 50%;
+
+}

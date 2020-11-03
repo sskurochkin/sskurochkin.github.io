@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/portfolio.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&display=swap" rel="stylesheet"> 
+    <title>Irina</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="header__wrapper">
+            <div class="header__logo">
+                <a href="#" class="header__logo-link">Irina Bessmertnaya
+                    <span class="header__logo-pic">Дизайнер интерьера</span>
+                </a>
+            </div>
+            <div class="header__nav-btn" id="burger-menu">MENU</div>
+            <nav class="header__nav">
+               
+                <ul class="header__list" id="menu-list">
+                    <script>
+                        if(window.innerWidth <= 960){
+                            document.getElementById('menu-list').classList.add('hidden');
+                        }
+                    </script>
+ 
+                    <li class="header__item">
+                        <a href="../index.html" class="header__link">Главная</a>
+                    </li>  
+                    <li class="header__item">
+                        <a href="./prices.html" class="header__link">Цены</a>
+                    </li>  
+                    <li class="header__item">
+                        <a href="" class="header__link">Услуги</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="./portfolio.html" class="header__link">Портфолио</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="./contact.html" class="header__link">Контакты</a>
+                    </li>
+                </ul>
+                <div class="header__nav-close">
+                    <span class="header__nav-close-line"></span>
+                    <span class="header__nav-close-line"></span>
+                </div>
+            </nav>
+            
+        </div>
+</header>
+    <main>
+        <section class="portfolio">
+            <div class="portfolio-wrapper">
+                <div class="portfolio__title" id="_arrow-anchor">
+                    <h1 class="portfolio__title-title">Портфолио</h1>
+                </div>
+                <div class="portfolio__cards" >
+                    <div class="arrowtop hidden"></div>
+                    <figure class="portfolio__card-pic">
+                        <a href="#" class="_pic-link portfolio-link"></a>
+                        <img src="../img/17.jpg" class="portfolio__pic-thmb" alt="">
+                    </figure>
+                    <figure class="portfolio__card-pic">
+                        <a href="#" class="_pic-link portfolio-link"></a>
+                        <img src="../img/18.jpg" class="portfolio__pic-thmb" alt="">
+                    </figure>
+                    <figure class="portfolio__card-pic">
+                        <a href="#" class="_pic-link portfolio-link"></a>
+                        <img src="../img/19.jpg" class="portfolio__pic-thmb" alt="">
+                    </figure>
+                    <figure class="portfolio__card-pic">
+                        <a href="#" class="_pic-link portfolio-link"></a>
+                        <img src="../img/20.jpg" class="portfolio__pic-thmb" alt="">
+                    </figure>
+                    
+                </div>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="wrapper-full">
+            <div class="contacts">
+                <a href="tel: +375296137634" class="contacts__link">Tel./Viber/Telegram: <span>+375 29 6137634</span></a>
+                <a href="mailto:irina@mail.ru" class="contacts__link">email: <span>irina@mail.ru</span></a>
+                <a href="https://www.instagram.com/takoiuzhekot/" class="contacts__link">instagramm: <span>irinabessmertnaya</span></a>
+            </div>
+        </div>
+
+    </footer>
+    <script type="text/javascript" src="../js/arrow_top.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+</body>
+</html>
